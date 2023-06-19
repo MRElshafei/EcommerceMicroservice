@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "m2iK6CdAlAjnc148cl4r0ymxcCxj9XEyfC9h3Jz4r+vkUdNe/wz0Enx/qnVUI+08gNyrawuxkHdgurIVdOfnOQ==",
+  "dgSpecHash": "RURxEt5jNVDvrEVdI+sHOI5bc43pRQbY0KVhEhJlc/l7nF9LZe7qROEiaZSHcf3v1z1qXkFaBU01YM6PrOkOKg==",
   "success": true,
   "projectFilePath": "D:\\Learning\\Microservice\\ECommerseMicroservises\\ECommerce.Api.Orders\\ECommerce.Api.Orders.csproj",
   "expectedPackageFiles": [
@@ -21,6 +21,7 @@
     "C:\\Users\\melshafei\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
     "C:\\Users\\melshafei\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "C:\\Users\\melshafei\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\melshafei\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.15.1\\microsoft.visualstudio.azure.containers.tools.targets.1.15.1.nupkg.sha512",
     "C:\\Users\\melshafei\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\melshafei\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\melshafei\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",

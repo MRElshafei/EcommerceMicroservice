@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "bFksybyki05vaCOT5lvshZAWoLi9+MTCfiaeedvCfVIW0HhyboVQTcf3RFutWrIuisOol0Vds5BB2O7hlcD4jw==",
+  "dgSpecHash": "wZdg74kUeNvx2xmEYD3vbVM3KKNR39TvHCGpoctDHIrjUSM10ei2f12k59gbyf7F0PNONFsOanUqDqVKpSDENg==",
   "success": true,
   "projectFilePath": "D:\\Learning\\Microservice\\ECommerseMicroservises\\ECommerce.Api.Search\\ECommerce.Api.Search.csproj",
   "expectedPackageFiles": [
@@ -14,6 +14,7 @@
     "C:\\Users\\melshafei\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
     "C:\\Users\\melshafei\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "C:\\Users\\melshafei\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\melshafei\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.15.1\\microsoft.visualstudio.azure.containers.tools.targets.1.15.1.nupkg.sha512",
     "C:\\Users\\melshafei\\.nuget\\packages\\polly\\7.2.3\\polly.7.2.3.nupkg.sha512",
     "C:\\Users\\melshafei\\.nuget\\packages\\polly.extensions.http\\3.0.0\\polly.extensions.http.3.0.0.nupkg.sha512",
     "C:\\Users\\melshafei\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",

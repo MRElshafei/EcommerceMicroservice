@@ -1,0 +1,78 @@
+name: dockercompose7496372759304306798
+services:
+  ecommerce.api.customers:
+    build:
+      context: D:\Learning\Microservice\ECommerseMicroservises
+      dockerfile: ECommerce.Api.Customers\Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: ecommerceapicustomers
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "6001"
+      protocol: tcp
+  ecommerce.api.orders:
+    build:
+      context: D:\Learning\Microservice\ECommerseMicroservises
+      dockerfile: ECommerce.Api.Orders\Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: ecommerceapiorders
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "6003"
+      protocol: tcp
+  ecommerce.api.products:
+    build:
+      context: D:\Learning\Microservice\ECommerseMicroservises
+      dockerfile: ECommerce.Api.Products\Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: ecommerceapiproducts
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "6002"
+      protocol: tcp
+    - mode: ingress
+      target: 443
+      protocol: tcp
+    volumes:
+    - type: bind
+      source: C:\Users\melshafei\AppData\Roaming/Microsoft/UserSecrets
+      target: C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\melshafei\AppData\Roaming/ASP.NET/Https
+      target: C:\Users\ContainerUser\AppData\Roaming\ASP.NET\Https
+      read_only: true
+      bind:
+        create_host_path: true
+  ecommerce.api.search:
+    build:
+      context: D:\Learning\Microservice\ECommerseMicroservises
+      dockerfile: ECommerce.Api.Search\Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: ecommerceapisearch
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "6004"
+      protocol: tcp
+networks:
+  default:
+    name: dockercompose7496372759304306798_default
